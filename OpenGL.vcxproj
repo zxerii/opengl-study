@@ -143,12 +143,19 @@
   <ItemGroup>
     <ClCompile Include="src\application.cpp" />
     <ClCompile Include="src\GLBasic.cpp" />
+    <ClCompile Include="src\indexBuffer.cpp" />
+    <ClCompile Include="src\vertexArray.cpp" />
+    <ClCompile Include="src\vertexBuffer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\Basic.shader" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\GLBasic.h" />
+    <ClInclude Include="inc\indexBuffer.h" />
+    <ClInclude Include="inc\vertexArray.h" />
+    <ClInclude Include="inc\vertexBuffer.h" />
+    <ClInclude Include="inc\vertexBufferLayout.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

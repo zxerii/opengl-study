@@ -21,12 +21,33 @@
     <ClCompile Include="src\GLBasic.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\vertexBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\indexBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vertexArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\Basic.shader" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\GLBasic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vertexBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\indexBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vertexArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\vertexBufferLayout.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
